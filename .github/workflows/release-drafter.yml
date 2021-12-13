@@ -26,4 +26,4 @@ jobs:
         #   config-name: my-config.yml
         #   disable-autolabeler: true
         env:
-          GITHUB_TOKEN: ${{ 53a7961410ad86e32b6d11b3371a66f5d9a8c71d }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
