@@ -26,6 +26,6 @@ jobs:
         #   config-name: my-config.yml
         #   disable-autolabeler: true
         env:
-          GITHUB_TOKEN: ${{ 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 }}
+          GITHUB_TOKEN: ${{ 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 }}
       - name: Release Drafter
         uses: release-drafter/release-drafter@v5.15.0
