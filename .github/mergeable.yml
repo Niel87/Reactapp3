@@ -1,15 +1,5 @@
 version: 2
 mergeable:
-  - when: pull_request.*, pull_request_review.*, status.*, check_suite.*
-    name: "Automatically merge pull requests once it passes all checks"
-    validate: []
-    pass:
-      - do: merge
-        merge_method: "squash"
-
-
-version: 2
-mergeable:
   - when: pull_request.opened
     name: "Greet a contributor"
     validate: []
@@ -20,11 +10,4 @@ mergeable:
             Thanks for creating a pull request! A maintainer will review your changes shortly. Please don't be discouraged if it takes a while. 
             
             
-version: 2
-mergeable:
-  - when: pull_request.*
-    validate:
-      - do: description
-        no_empty:
-          enabled: true
-          message: Description matter and should not be empty. Provide detail with **what** was changed, **why** it was changed, and **how** it was changed.
+
