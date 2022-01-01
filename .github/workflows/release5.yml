@@ -29,4 +29,7 @@ jobs:
         #   config-name: my-config.yml
         #   disable-autolabeler: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release Drafter
+        uses: release-drafter/release-drafter@v5.15.0
+
