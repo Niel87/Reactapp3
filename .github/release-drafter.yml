@@ -1,8 +1,6 @@
 template: |
   ## Who made changes
   
-  ## Documentation updated
-  
   ## What's Changed
 
    $CHANGES
