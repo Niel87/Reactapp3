@@ -1,4 +1,4 @@
-Updated with new receipes
+Release Drafter updated
 
 
 
